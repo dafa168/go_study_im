@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./ctrl"
+	"go_study_im/ctrl"
 	"html/template"
 	"log"
 	"net/http"

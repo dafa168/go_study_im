@@ -1,9 +1,9 @@
 package service
 
 import (
-	"../model"
 	"errors"
 	"fmt"
+	"go_study_im/model"
 	"log"
 	"time"
 )

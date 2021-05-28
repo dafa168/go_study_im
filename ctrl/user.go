@@ -1,8 +1,8 @@
 package ctrl
 
 import (
-	"../service"
-	"../util"
+	"go_study_im/service"
+	"go_study_im/util"
 	"net/http"
 	"strconv"
 )

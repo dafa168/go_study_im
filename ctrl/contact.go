@@ -1,10 +1,10 @@
 package ctrl
 
 import (
-	"../args"
-	"../model"
-	"../service"
-	"../util"
+	"go_study_im/args"
+	"go_study_im/model"
+	"go_study_im/service"
+	"go_study_im/util"
 	"net/http"
 )
 

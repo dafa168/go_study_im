@@ -1,8 +1,8 @@
 package ctrl
 
 import (
-	"../util"
 	"fmt"
+	"go_study_im/util"
 	"io"
 	"math/rand"
 	"net/http"

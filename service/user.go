@@ -1,8 +1,8 @@
 package service
 
 import (
-	"../model"
-	"../util"
+	"go_study_im/model"
+	"go_study_im/util"
 	"errors"
 	"fmt"
 	"log"

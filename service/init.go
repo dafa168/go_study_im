@@ -1,7 +1,7 @@
 package service
 
 import (
-	"../model"
+	"go_study_im/model"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
@@ -12,7 +12,7 @@ var DbEngine *xorm.Engine
 
 func init()  {
 	var err error
-	DbEngine,err = xorm.NewEngine("mysql","root:root@(127.0.0.1:3306)/go_im?charset=utf8")
+	DbEngine,err = xorm.NewEngine("mysql","root:123456@(192.168.0.61:3306)/go_im?charset=utf8mb4")
 	if err != nil{
 		log.Fatal(err.Error())
 	}

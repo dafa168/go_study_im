@@ -1,10 +1,10 @@
 package ctrl
 
 import (
-	"../model"
-	"../service"
 	"encoding/json"
 	"github.com/gorilla/websocket"
+	"go_study_im/model"
+	"go_study_im/service"
 	"gopkg.in/fatih/set.v0"
 	"log"
 	"net"
